@@ -1,5 +1,5 @@
 deployment:
-  imageURL: vanimina/dispatch #315069654700.dkr.ecr.us-east-1.amazonaws.com/roboshop/dev/dispatch
+  imageURL: vanimina/dispatch 
   imageVersion: 1.0.0 #IMAGE_VERSION
 hpa:
   cpuUtilization: 20
