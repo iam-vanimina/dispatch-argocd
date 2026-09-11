@@ -27,6 +27,8 @@ spec:
       tier: app
   template:
     metadata:
+      annotations:
+        instrumentation.opentelemetry.io/inject-go: "roboshop/roboshop-auto"
       labels: # these labels are pod labels
         app: dispatch
         project: roboshop
